@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="custom_style">@style/custom_theme</item>-->
+        <item name="custom_color1">#ff444444</item>
+        <item name="custom_color2">#ff444444</item>
+        <item name="custom_color3">#ff444444</item>
+        <item name="custom_color4">#ff444444</item>
+        <item name="custom_color5">#ff444444</item>
+    </style>
+
+    <style name="custom_theme">
+        <item name="custom_color1">#ff222222</item>
+        <item name="custom_color2">#ff222222</item>
+        <item name="custom_color3">#ff222222</item>
+    </style>
+
+    <style name="myStyle">
+        <item name="custom_color1">#ff111111</item>
+        <item name="custom_color2">#ff111111</item>
+    </style>
+
+    <declare-styleable name="custom_attrs">
+        <attr name="custom_color1" format="color"></attr>
+        <attr name="custom_color2" format="color"></attr>
+        <attr name="custom_color3" format="color"></attr>
+        <attr name="custom_color4" format="color"></attr>
+        <attr name="custom_color5" format="color"></attr>
+    </declare-styleable>
+
+    <attr name="custom_style" format="reference"></attr>
+
+    <style name="default_style">
+        <item name="custom_color1">#ff333333</item>
+        <item name="custom_color2">#ff333333</item>
+        <item name="custom_color3">#ff333333</item>
+        <item name="custom_color4">#ff333333</item>
+    </style>
+
+</resources>
